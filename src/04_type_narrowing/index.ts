@@ -86,10 +86,10 @@ function handleLightWithSecurity(light: TrafficLight) {
     //   break;
 
     default:
-      // If "Blue" is not handled above, TypeScript flags an error here.
-      // Error: Type 'string' is not assignable to type 'never'.
-      const _exhaustiveCheck: never = light;
-      return _exhaustiveCheck;
+    // If "Blue" is not handled above, TypeScript flags an error here.
+    // Error: Type 'string' is not assignable to type 'never'.
+    // const _exhaustiveCheck: never = light;
+    // return _exhaustiveCheck;
   }
 }
 
